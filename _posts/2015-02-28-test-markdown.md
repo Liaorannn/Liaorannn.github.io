@@ -3,6 +3,14 @@ layout: post
 title: Test markdown
 subtitle: Each post also has a subtitle
 categories: markdown
+banner:
+  image: "/assets/images/banners/6.jpg"
+  opacity: 0.618
+  background: "#000"
+  height: "100vh"
+  min_height: "38vh"
+  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
+  subheading_style: "color: gold"
 tags: [test]
 ---
 
@@ -41,7 +49,7 @@ foo(3)
 
 And here is the same code with syntax highlighting:
 
-```javascript
+```javascript 
 var foo = function(x) {
   return(x + 5);
 }

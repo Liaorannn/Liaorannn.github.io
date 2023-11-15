@@ -10,7 +10,9 @@ Put the math expression within <span>$</span>...\$:
 
 \\(\LaTeX{}\\)
 
-$\Pi$
+$\LaTex{\Pi}$
+
+$$ 5* 4 $$
 
 $ a * b = c ^ b $
 
