@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f20022a-97e8-48bd-869a-10624d2729ec" name="Changes" comment="update about">
+    <list default="true" id="4f20022a-97e8-48bd-869a-10624d2729ec" name="Changes" comment="customize settings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-02-28-test-markdown.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2015-02-28-test-markdown.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-01-01-another-test-markdown.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016-01-01-another-test-markdown.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-06-10-quick-mardown-example.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2017-06-10-quick-mardown-example.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +58,7 @@
       <workItem from="1699862652818" duration="5180000" />
       <workItem from="1699969732153" duration="5733000" />
       <workItem from="1700018877294" duration="709000" />
-      <workItem from="1700051805356" duration="6700000" />
+      <workItem from="1700051805356" duration="8397000" />
     </task>
     <task id="LOCAL-00001" summary="update configs">
       <created>1699850575364</created>
@@ -99,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699871610171</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="customize settings">
+      <created>1700066769243</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700066769244</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +122,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update configs" />
     <MESSAGE value="update about" />
-    <option name="LAST_COMMIT_MESSAGE" value="update about" />
+    <MESSAGE value="customize settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="customize settings" />
   </component>
 </project>
