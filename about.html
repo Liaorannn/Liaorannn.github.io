@@ -3,17 +3,32 @@ layout: about
 title: About
 ---
 
-<style type="text/css">
-	img{
-		border-radius: 50%;
-		overflow: hidden;
-		width: 400px;
-	}
-</style>
+<head>  
+    <style>  
+    .avatar-container {  
+        border-radius: 50%;  
+        width: 150px; /* 调整为你需要的尺寸 */  
+        height: 150px; /* 调整为你需要的尺寸 */  
+        overflow: hidden;  
+    }  
+      
+    .avatar-container img {  
+        width: 100%;  
+        height: auto;  
+    }  
+    </style>  
+</head>  
 
 <h2>About</h2>
 
-<img src="assets/images/3.jpg" alt="头像" class="avatar">
+
+<div class="avatar-container">  
+   <img src="assets/images/3.jpg" alt="头像">  
+</div>  
+
+
+
+
 
 <p>
 Hey 👋, I’m Aoran Li!
