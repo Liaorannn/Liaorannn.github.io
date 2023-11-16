@@ -4,9 +4,11 @@
     <list default="true" id="4f20022a-97e8-48bd-869a-10624d2729ec" name="Changes" comment="customize settings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2015-01-01-welcome-to-jekyll.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2015-01-01-welcome-to-jekyll.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-05-19-super-short-article.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2017-05-20-this-post-demonstrates-post-content-styles.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2017-12-08-mermaid-example.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-05-26-mathjax-test.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +44,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/blog&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Blog&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
@@ -61,6 +63,8 @@
       <workItem from="1699969732153" duration="5733000" />
       <workItem from="1700018877294" duration="709000" />
       <workItem from="1700051805356" duration="9185000" />
+      <workItem from="1700129801633" duration="1192000" />
+      <workItem from="1700145000461" duration="1001000" />
     </task>
     <task id="LOCAL-00001" summary="update configs">
       <created>1699850575364</created>

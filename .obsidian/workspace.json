@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "dc2afb4bf875ba91",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ea16e283414afea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "658460e28f1fe04f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-03-21-MAFM-ML-notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ded0db8177094199",
+    "type": "split",
+    "children": [
+      {
+        "id": "71fe27de243d32ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "243f42d045d5a29a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "640a72a1e8efb199",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "62f14ec0d902b61b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 285.5
+  },
+  "right": {
+    "id": "0c28ccc2e5ee305d",
+    "type": "split",
+    "children": [
+      {
+        "id": "1751315065f28dda",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "12e9fc0d84d321e3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/2023-03-21-MAFM-ML-notes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "898c515841a25923",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/2023-03-21-MAFM-ML-notes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f9f1afa1244ec848",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "710ba0ce082101fc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/2023-03-21-MAFM-ML-notes.md"
+              }
+            }
+          },
+          {
+            "id": "d36f44862b77b5ea",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "62e0a9078be93384",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "658460e28f1fe04f",
+  "lastOpenFiles": [
+    "_posts/2023-11-15-how-to-build-your-own-website.md",
+    "_posts/2023-03-21-MAFM-ML-notes.md",
+    "_posts/2015-01-01-welcome-to-jekyll.md",
+    "_posts/MAFM ML notes.md",
+    "_posts/2016-05-19-super-short-article.md",
+    "_posts/2017-05-20-this-post-demonstrates-post-content-styles.md",
+    "_posts/2018-05-26-mathjax-test.md",
+    "_posts/2017-12-08-mermaid-example.md",
+    "_data/img/2023-11-15-how-to-build-your-own-website/image-20231116215927337.png",
+    "_data/img/2023-11-15-how-to-build-your-own-website",
+    "_data/Pasted image 20231116214827.png",
+    "Pasted image 20231116215012.png",
+    "_data/img",
+    "未命名.md"
+  ]
+}
