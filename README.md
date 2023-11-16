@@ -26,6 +26,13 @@ Like this Repo? You can give it a star if you find it useful!<br>
 Please feel free to raise issue if you have any question!
 </p>
 
+## Handy Links
+- Jekyll: https://jekyllrb.com/docs/
+- YAT theme: https://github.com/jeffreytse/jekyll-theme-yat
+- Theme templates: http://jekyllthemes.org
+
+<br>
+
 ## Todo
 - [ ] Adding old blogs
 - [ ] Adding new header: reading list
