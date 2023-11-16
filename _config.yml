@@ -161,15 +161,14 @@ header_pages:
 defaults:
   home:
     heading: Hey👋， I‘m Aoran Li !
-    subheading: >- 
-         Welcome to my personal website!
-         
-         Here, I share my thoughts and experiences on various topics that interest me.
-         
-         Join me on this journey of exploration and discovery as we delve into the world of creativity,
-        self-improvement, and beyond.
-         
-         Thank you for visiting, and hope you enjoy your stay!
+    subheading: >-
+      Welcome to my personal website!
+
+      Here, I share my thoughts and experiences on various topics that interest me.
+
+      Join me on this journey of exploration and discovery as we delve into the world of creativity, self-improvement, and beyond. 
+
+      Thank you for visiting, and hope you enjoy your stay!
     banner: Your image url
 
 # Banner default settings
