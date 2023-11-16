@@ -8,6 +8,7 @@ tags:
   - jeklly
   - blog
   - html
+banner: []
 ---
 This is my inaugural blog post following the completion of my personal website's construction. After nearly four days of strenuous effort, I have successfully finished building my website, which is showcased here. Despite the abundance of tutorials available that guide users on utilizing GitHub Pages and Jekyll to construct a blog website, this process can still be quite intricate and laborious, particularly for those unfamiliar with the HTML language.
 
