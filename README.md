@@ -44,4 +44,5 @@ Please feel free to raise issue if you have any question!
 - [ ] Adding new header: reading list
 - [x] Check the translate button(only need cn & en)
 - [x] Check the about page (set the figure to middle
+- [ ] Fix the default banner image
 - [ ] -
