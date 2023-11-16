@@ -160,18 +160,16 @@ header_pages:
 # Page default value
 defaults:
   home:
-    heading: Welcome to my Blog !
+    heading: Hey👋， I‘m Aoran Li !
     subheading: >- 
-      <h1> Welcome to my personal website!</h1>
-      <p>
+         Welcome to my personal website!
+         
          Here, I share my thoughts and experiences on various topics that interest me.
-        Join me on this journey of exploration and discovery as we delve into the world of creativity,
+         
+         Join me on this journey of exploration and discovery as we delve into the world of creativity,
         self-improvement, and beyond.
-      </p>
-      <p>
+         
          Thank you for visiting, and hope you enjoy your stay!
-      </p>
-      <br>
     banner: Your image url
 
 # Banner default settings
