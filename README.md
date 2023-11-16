@@ -30,11 +30,18 @@ Please feel free to raise issue if you have any question!
 - Jekyll: https://jekyllrb.com/docs/
 - YAT theme: https://github.com/jeffreytse/jekyll-theme-yat
 - Theme templates: http://jekyllthemes.org
+- Wall Paper: https://interfacelift.com/
+- GIFs: https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub
+- Emojis: https://github.com/markdown-templates/markdown-emojis
+- Yamls check: https://www.yamllint.com/
+- Favicon generate: https://favicon.io/favicon-generator/
+- 
 
 <br>
 
 ## Todo
 - [ ] Adding old blogs
 - [ ] Adding new header: reading list
-- [ ] Check the translate button(only need cn & en)
+- [x] Check the translate button(only need cn & en)
+- [ ] Check the about page (set the figure to middle
 - [ ] -
