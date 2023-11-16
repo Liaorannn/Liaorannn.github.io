@@ -43,5 +43,5 @@ Please feel free to raise issue if you have any question!
 - [ ] Adding old blogs
 - [ ] Adding new header: reading list
 - [x] Check the translate button(only need cn & en)
-- [ ] Check the about page (set the figure to middle
+- [x] Check the about page (set the figure to middle
 - [ ] -
