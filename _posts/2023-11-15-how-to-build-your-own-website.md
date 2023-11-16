@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Build your own Website
-subtitle: Using Github pages to build your personal website
+subtitle: How to build personal websit uesing Github pages 
 author: Liaoran
 categories: Blog
 tags:
-  - jeklly
+  - jekyll
   - blog
   - html
 banner: []
