@@ -8,7 +8,6 @@ tags:
   - notes
   - ML
 categories: Notes
-banner: []
 ---
 
 #### Feb.17
