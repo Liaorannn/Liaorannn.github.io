@@ -35,6 +35,8 @@ Please feel free to raise issue if you have any question!
 - Emojis: https://github.com/markdown-templates/markdown-emojis
 - Yamls check: https://www.yamllint.com/
 - Favicon generate: https://favicon.io/favicon-generator/
+- Markdown Img to Latex transform: https://www.simpletex.cn/ai/latex_ocr
+- Image Enhancement: https://waifu2x.udp.jp/
 - 
 
 <br>
