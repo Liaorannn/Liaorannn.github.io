@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f20022a-97e8-48bd-869a-10624d2729ec" name="Changes" comment="upload file" />
+    <list default="true" id="4f20022a-97e8-48bd-869a-10624d2729ec" name="Changes" comment="upload file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/appearance.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/appearance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/community-plugins.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/community-plugins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/core-plugins-migration.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/core-plugins-migration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/core-plugins.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/core-plugins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/calendar/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/calendar/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/table-editor-obsidian/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/table-editor-obsidian/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/workspace.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +68,9 @@
       <workItem from="1700129801633" duration="1192000" />
       <workItem from="1700145000461" duration="1001000" />
       <workItem from="1700146562935" duration="177000" />
+      <workItem from="1700149074536" duration="1264000" />
+      <workItem from="1700482782281" duration="708000" />
+      <workItem from="1700967838669" duration="1435000" />
     </task>
     <task id="LOCAL-00001" summary="update configs">
       <created>1699850575364</created>

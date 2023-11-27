@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "658460e28f1fe04f",
+            "id": "da2354bf495c5009",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-03-21-MAFM-ML-notes.md",
+                "file": "_posts/2023-11-15-how-to-build-your-own-website.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-03-21-MAFM-ML-notes.md",
+                "file": "_posts/2023-11-15-how-to-build-your-own-website.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-03-21-MAFM-ML-notes.md",
+                "file": "_posts/2023-11-15-how-to-build-your-own-website.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-03-21-MAFM-ML-notes.md"
+                "file": "_posts/2023-11-15-how-to-build-your-own-website.md"
               }
             }
           },
@@ -164,20 +164,39 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "658460e28f1fe04f",
+  "active": "da2354bf495c5009",
   "lastOpenFiles": [
-    "_posts/2023-11-15-how-to-build-your-own-website.md",
-    "_posts/2023-03-21-MAFM-ML-notes.md",
+    "_posts/2023-11-23-Volatility-Practical-Options-Theory.md",
+    "_posts/2023-11-23-pytorch-knwoledge.md",
+    "_posts/2023-11-21-Huatai-Financial-Engineering-AI.md",
+    "_posts/2023-11-26-Interview-Question.md",
+    "_posts/2023-11-26-Reinforcement-Learning-Notes.md",
     "_posts/2015-01-01-welcome-to-jekyll.md",
+    "_posts/2023-03-21-MAFM-ML-notes.md",
+    "_data/img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231127010415892.png",
+    "_posts/未命名.md",
+    "_data/img/2023-11-26-Interview-Question/image-20231127000727698.png",
+    "_data/img/2023-11-26-Interview-Question",
+    "_posts/2023-05-21-RL-Notes.md",
+    "_data/img/2023-11-26-Reinforcement-Learning-Notes/image-20231126233134971.png",
+    "_data/img/2023-11-26-Reinforcement-Learning-Notes/image-20231126225542502.png",
+    "_data/img/2023-11-26-Reinforcement-Learning-Notes/image-20231126225532649.png",
+    "_data/img/2023-11-26-Reinforcement-Learning-Notes/image-20231126225122263.png",
+    "_data/img/2023-11-26-Reinforcement-Learning-Notes/image-20231126224845091.png",
+    "_data/img/2023-11-26-Reinforcement-Learning-Notes/image-20231126223847002.png",
+    "_data/img/2023-11-26-Reinforcement-Learning-Notes/image-20231126223506754.png",
+    "_data/img/2023-11-26-Reinforcement-Learning-Notes/image-20231126223454823.png",
+    "_data/img/2023-11-26-Reinforcement-Learning-Notes",
+    "_data/img/2023-11-23-Volatility-Practical-Options-Theory",
+    "_posts/未命名 1.md",
+    "_data/img/2023-11-21-Huatai-Financial-Engineering-AI",
+    "_posts/2023-11-15-how-to-build-your-own-website.md",
     "_posts/MAFM ML notes.md",
     "_posts/2016-05-19-super-short-article.md",
     "_posts/2017-05-20-this-post-demonstrates-post-content-styles.md",
     "_posts/2018-05-26-mathjax-test.md",
     "_posts/2017-12-08-mermaid-example.md",
-    "_data/img/2023-11-15-how-to-build-your-own-website/image-20231116215927337.png",
     "_data/img/2023-11-15-how-to-build-your-own-website",
-    "_data/Pasted image 20231116214827.png",
-    "Pasted image 20231116215012.png",
     "_data/img",
     "未命名.md"
   ]
