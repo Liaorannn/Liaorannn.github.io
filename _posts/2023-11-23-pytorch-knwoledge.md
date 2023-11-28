@@ -8,14 +8,15 @@ tags:
   - PyTorch
   - Tips
 excerpt_image: NO_EXCERPT_IMAGE
+sidebar: []
 ---
 
 
-##### Long Tensor
+### Long Tensor
 ***
 > 专门用来储存整型，可以用在语料的embedding上面
 
-##### View & Reshape & Contiguous
+### View & Reshape & Contiguous
 ***
 View和Reshape本质上都是改变tensor的维度，对tensor进行维度变换，但是在其工作机制上略有不同。
 
@@ -52,11 +53,11 @@ Ref:
 - [PyTorch 82. view() 与 reshape() 区别详解 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/436892343)
 - [Pytorch: view()和reshape()的区别？他们与continues()的关系是什么？_view和reshape的区别_JacksonKim的博客-CSDN博客](https://blog.csdn.net/qq_40765537/article/details/112471341)
 
-#### Transpose & Permute
+### Transpose & Permute
 ---
 用来转置或者变换维度
 
 
-#### Register_buffer
+### Register_buffer
 ---
 用来表示不用更新参数，position encoding中使用
