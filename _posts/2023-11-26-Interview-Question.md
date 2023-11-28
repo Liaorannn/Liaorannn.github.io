@@ -5,9 +5,9 @@ subtitle: Some forgettable useless tips in p-quant
 author: Liaoran
 categories: Notes
 tags:
-  - notes
-  - P-quant
+  - Interview
   - Tips
+excerpt_image: NO_EXCERPT_IMAGE
 ---
 
 

@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "Reading Notes---Volatility: Practical Options Theory"
+title: "<<Volatility: Practical Options Theory>>"
 subtitle: My reading notes of <Volatility-practical options theory>
 author: Liaoran
-categories: Notes
+categories: Books
 tags:
-  - notes
   - Q-quant
-  - books
+  - Books
   - Option
 ---
 

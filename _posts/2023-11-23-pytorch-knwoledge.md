@@ -6,7 +6,8 @@ author: Liaoran
 categories: Notes
 tags:
   - PyTorch
-  - notes
+  - Tips
+excerpt_image: NO_EXCERPT_IMAGE
 ---
 
 

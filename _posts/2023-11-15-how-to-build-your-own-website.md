@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Build your own Website
-subtitle: How to build personal websit uesing Github pages 
+subtitle: Build personal website using GitHub pages 
 author: Liaoran
 categories: Blog
 tags:
-  - jekyll
-  - blog
-  - html
-banner: []
+  - Jekyll
+  - Blog
+  - Html
+excerpt_image: NO_EXCERPT_IMAGE
 ---
 This is my inaugural blog post following the completion of my personal website's construction. After nearly four days of strenuous effort, I have successfully finished building my website, which is showcased here. Despite the abundance of tutorials available that guide users on utilizing GitHub Pages and Jekyll to construct a blog website, this process can still be quite intricate and laborious, particularly for those unfamiliar with the HTML language.
 

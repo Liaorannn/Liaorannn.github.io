@@ -2,13 +2,13 @@
 layout: post
 title: Research Report---Huatai Artificial Intelligence Series
 subtitle: "Study notes of Huatai Financial Engineering: artificial Intelligence series research report"
-categories: Research_Report
+categories: Financial_Reports
 tags:
-  - notes
   - Huatai
   - P-quant
-  - Research-report
+  - Financial_Reports
 author: Liaoran
+excerpt_image: NO_EXCERPT_IMAGE
 ---
 
 > **This is my study notes of HuaTai Financial Engineering Artificial Intelligence Research Reports.**

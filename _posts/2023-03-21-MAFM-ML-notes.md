@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ml notes
+title: ML notes
 subtitle: MAFM course notes
 author: Liaoran
 tags:
@@ -8,6 +8,7 @@ tags:
   - notes
   - ML
 categories: Notes
+excerpt_image: NO_EXCERPT_IMAGE
 ---
 
 #### Feb.17

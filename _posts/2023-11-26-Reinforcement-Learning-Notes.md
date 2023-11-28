@@ -6,7 +6,9 @@ author: Liaoran
 categories: Notes
 tags:
   - RL
-  - notes
+top: 1
+sidebar: []
+excerpt_image: NO_EXCERPT_IMAGE
 ---
 
 ## Reinforcement Learning
