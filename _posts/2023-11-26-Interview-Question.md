@@ -8,7 +8,6 @@ tags:
   - Interview
   - Tips
 excerpt_image: NO_EXCERPT_IMAGE
-sidebar: []
 ---
 
 
@@ -21,7 +20,7 @@ sidebar: []
 将股票按因子分n组，按组的因子和组合收益率来算IC或RankIC
 **加权IC：**
 按照因子大小排序，然后给予指数衰减的权重，然后加权计算收益率。
-![ ](../_data/img/2023-11-26-Interview-Question/image-20231127000727698.png)
+![ ](../assets/images/blog-img/2023-11-26-Interview-Question/image-20231127000727698.png)
 [用 IC 评价因子效果靠谱吗？ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/41454197)
 
 **IR（信息比率）:**   

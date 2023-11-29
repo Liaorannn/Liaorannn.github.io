@@ -26,7 +26,7 @@ bellman optimal equation 给出了最佳state value的存在性。解贝尔曼�
 
 # RL经典算法
 ***
-![](../_data/img/2023-11-26-Reinforcement-Learning-Notes/image-20231126222441221.png)
+![](../assets/images/blog-img/2023-11-26-Reinforcement-Learning-Notes/image-20231126222441221.png)
 
 
 ## Model Based
@@ -35,11 +35,11 @@ bellman optimal equation 给出了最佳state value的存在性。解贝尔曼�
 ### Value Iteration
 核心理解：
 - 本质上就是用贝尔曼公式，求解整个系统的State Value然后根据state value去进行最后的策略选择，整个计算过程中就算把pi的更新给拿掉，只在收敛后再取，也没有任何问题！
-![](../_data/img/2023-11-26-Reinforcement-Learning-Notes/image-20231126223454823.png)
+![](../assets/images/blog-img/2023-11-26-Reinforcement-Learning-Notes/image-20231126223454823.png)
 
 ### Policy Iteration
 初始化Pi0，同样先做policy evaluation(这一步先迭代到最优的state value)，然后更新最优策略pi，然后再做policy evaluation 做iteration
-![](../_data/img/2023-11-26-Reinforcement-Learning-Notes/image-20231126223506754.png)
+![](../assets/images/blog-img/2023-11-26-Reinforcement-Learning-Notes/image-20231126223506754.png)
 
 ## Model Free
 > 现实状态，不知道转移状态矩阵，并且不知道reward函数，通过与环境互动得到的信息进行学习，更新策略。 
@@ -54,7 +54,7 @@ bellman optimal equation 给出了最佳state value的存在性。解贝尔曼�
 	-【注意】这里的pseudocode并没有给出得到episode和return的算法！  
 	-【注意】这里对每个state、action pair都要做N个episode进行return估计，因此太麻烦了【当然如果policy和env都是deterministic的话，就可以只取一个trajectory因为确定】  
 	每步episode长度需要注意，尽量足够长
-![](../_data/img/2023-11-26-Reinforcement-Learning-Notes/image-20231126223847002.png)
+![](../assets/images/blog-img/2023-11-26-Reinforcement-Learning-Notes/image-20231126223847002.png)
 
 坏处：方法太过耗时。需要采样很多遍。
 改进：exploting start方法， 策略每步迭代方法。
@@ -64,7 +64,7 @@ bellman optimal equation 给出了最佳state value的存在性。解贝尔曼�
 >  本质：用类似RM算法的迭代的思想，从单一trajectory中 直接对state value、action value等进行估计。  
 >  本质上：用RM算法解决bellman equation。通过t+1时刻的reward和state value来更新 t时刻的状态价值函数。
 
-![](../_data/img/2023-11-26-Reinforcement-Learning-Notes/image-20231126224845091.png)
+![](../assets/images/blog-img/2023-11-26-Reinforcement-Learning-Notes/image-20231126224845091.png)
 
 
 ##### On-Policy
@@ -72,7 +72,7 @@ bellman optimal equation 给出了最佳state value的存在性。解贝尔曼�
 > （显然MC也是on-policy的）
 
 **SARSA:**
-![](../_data/img/2023-11-26-Reinforcement-Learning-Notes/image-20231126225122263.png)
+![](../assets/images/blog-img/2023-11-26-Reinforcement-Learning-Notes/image-20231126225122263.png)
 
 【后续】：有N-STEP SARSA 和 Expected SARSA
 
@@ -83,10 +83,10 @@ bellman optimal equation 给出了最佳state value的存在性。解贝尔曼�
 >  本质上是直接解决贝尔曼的最优问题，因为存在max
 
 **on-policy版本：**
-![](../_data/img/2023-11-26-Reinforcement-Learning-Notes/image-20231126225532649.png)
+![](../assets/images/blog-img/2023-11-26-Reinforcement-Learning-Notes/image-20231126225532649.png)
 
 **off-policy版本：**
-![](../_data/img/2023-11-26-Reinforcement-Learning-Notes/image-20231126225542502.png)
+![](../assets/images/blog-img/2023-11-26-Reinforcement-Learning-Notes/image-20231126225542502.png)
 
 
 
@@ -109,6 +109,6 @@ bellman optimal equation 给出了最佳state value的存在性。解贝尔曼�
 - Q-table实际上在直接解决一个bellman optimistic problem，实际不需要用到S，A的分布【实际上是类似于对每个（s,a）的点，求BOE得到q-value，只是求解的方法，用的是类似EM（SGD）算法，即对每个点都要遍历多次采样，然后公式的长相和这边functional approximation类似】；  
 - 但Q-functional approximation中，是用最优化的方法求解一个函数估计、最小化损失函数的问题，因此不是针对某一个（s，a）点的，而是对一整个action-value function的参数估计，因此需要进行样本采样，这个时候采样 用到的就是 experience replay
 
-![](../_data/img/2023-11-26-Reinforcement-Learning-Notes/image-20231126233134971.png)
+![](../assets/images/blog-img/2023-11-26-Reinforcement-Learning-Notes/image-20231126233134971.png)
 
 

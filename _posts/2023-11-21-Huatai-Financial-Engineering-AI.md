@@ -9,7 +9,6 @@ tags:
   - Financial_Reports
 author: Liaoran
 excerpt_image: NO_EXCERPT_IMAGE
-sidebar: []
 ---
 
 > **This is my study notes of HuaTai Financial Engineering Artificial Intelligence Research Reports.**
@@ -30,17 +29,17 @@ sidebar: []
 - **Normalization:** each time step, 0-1 standardize
 
 
-
+assets/images/blog-img/2023-11-21-Huatai-Financial-Engineering-AI
 ## Episode 13: Loss function Improvement
 ***
 **Weighted Loss:**
 - Used when the sample is imbalanced or more focus on one scenario;
-- ![](../_data/img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231122144136691.png)
-- ![](../_data/img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231122145550474.png)
+- ![](../assets/images/blog-img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231122144136691.png)
+- ![](../assets/images/blog-img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231122145550474.png)
 
 **General Loss:**
-- ![](../_data/img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231122144315581.png)
-- ![](../_data/img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231122145619916.png)
+- ![](../assets/images/blog-img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231122144315581.png)
+- ![](../assets/images/blog-img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231122145619916.png)
 
 
 
@@ -53,11 +52,11 @@ sidebar: []
 > - Traditional K-fold validation split assumes that the data distribution is i.i.d. In time series data, clearly the features distribution varies from time to time.
 
 **Time series cross-validation:**
-![](../_data/img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231122204235196.png)
+![](../assets/images/blog-img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231122204235196.png)
 - Each model use different length-data to train and take the average metrics of validation set as model evaluation.
 
 **Recursive Training:**
-![](../_data/img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231122205226780.png)
+![](../assets/images/blog-img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231122205226780.png)
 
 **Single Factor Testing:**
 1. Get the factor's value of each stocks.
@@ -66,7 +65,7 @@ sidebar: []
 4. Split the industry stock into N folds. Since the stocks' weight is different, it is possible to have the same stock in different groups. And the weight of each stock in single group is also different.
 5. The returns of the corresponding groups of different industries are weighted and summed according to the industry weight of the baseline portfolio(such as HS300), so as to obtain the final returns of different groups
 **Such operation ensures that the factor's portfolio is also industry neutral.**
-![](../_data/img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231122211646568.png)
+![](../assets/images/blog-img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231122211646568.png)
 
 
 ## 19: Against Overfitting: Bootstrap Method
@@ -96,29 +95,29 @@ TBW...
 
 In 34 report, they transfer the pooling and fc layer to lstm/gru layer. I don't think this two reports are really good.
 
-![](../_data/img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231122233838627.png)
+![](../assets/images/blog-img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231122233838627.png)
 
-![](../_data/img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231122233417171.png)
+![](../assets/images/blog-img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231122233417171.png)
 
 
 ## 64: Ubiquant Kaggle Cmpetition
 ***
 CCC Loss:
-![](../_data/img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231126215133472.png)
+![](../assets/images/blog-img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231126215133472.png)
 
 
 
 
 ## 67: Multi-task Learning
 ***
-![](../_data/img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231126214955819.png)
+![](../assets/images/blog-img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231126214955819.png)
 
 [使用pytorch实现MTL，多任务多目标学习 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/351421350)
 [Basic-Multi-task-Learning/MTL-Pytorch.ipynb at master · hosseinshn/Basic-Multi-task-Learning · GitHub](https://github.com/hosseinshn/Basic-Multi-task-Learning/blob/master/MTL-Pytorch.ipynb)
 
 ## Episode 68: Multi-frequency Learning
 ***
-![](../_data/img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231126210941420.png)
+![](../assets/images/blog-img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231126210941420.png)
 
 
 
@@ -131,7 +130,7 @@ CCC Loss:
 	- 无需position encoding：因为股票间顺序不关心；
 	- 【问题】
 		- 在做股票间transformer的时候，直接对截面因子做了multi-head，这样会有什么影响吗？因为对特征只计算了部分相关性，而不是全部；
-![](../_data/img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231127010415892.png)
+![](../assets/images/blog-img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231127010415892.png)
 
 
 **时序注意力：**
@@ -139,7 +138,7 @@ CCC Loss:
 - (batch_size, seq_len, d_model) -> (股票个数，序列长度，因子数量)
 
 **多任务注意力：**
-![](../_data/img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231126212803314.png)
+![](../assets/images/blog-img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231126212803314.png)
 
 **集成注意力：**
 - 用stacking集成上述模型
