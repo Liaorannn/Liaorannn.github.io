@@ -42,7 +42,7 @@ bellman optimal equation 给出了最佳state value的存在性。解贝尔曼�
 ![](assets/images/blog-img/2023-11-26-Reinforcement-Learning-Notes/image-20231126223506754.png)
 
 ## Model Free
-> 现实状态，不知道转移状态矩阵，并且不知道reward函数，通过与环境互动得到的信息进行学习，更新策略。 
+> 现实状态，不知道转移状态矩阵，并且不知道reward函数概率，通过与环境互动得到的信息进行学习，更新策略。 
 
 ### Valued Based
 > 通过学习各个state的价值函数，得到最优policy。

@@ -111,7 +111,7 @@ CCC Loss:
 ## 67: Multi-task Learning
 ***
 ![](../assets/images/blog-img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231126214955819.png)
-
+核心是：最后的不同层输出不同的target，然后和对应的不同label算loss，最后将loss加起来得到最终的算梯度loss
 [使用pytorch实现MTL，多任务多目标学习 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/351421350)
 [Basic-Multi-task-Learning/MTL-Pytorch.ipynb at master · hosseinshn/Basic-Multi-task-Learning · GitHub](https://github.com/hosseinshn/Basic-Multi-task-Learning/blob/master/MTL-Pytorch.ipynb)
 
@@ -134,8 +134,10 @@ CCC Loss:
 
 
 **时序注意力：**
-- ALSTN, AGRU, Transformer
+- ALSTM, AGRU, Transformer
 - (batch_size, seq_len, d_model) -> (股票个数，序列长度，因子数量)
+![](assets/images/blog-img/Pasted%20image%2020231201162024.png)
+![](assets/images/blog-img/Pasted%20image%2020231201162051.png)
 
 **多任务注意力：**
 ![](../assets/images/blog-img/2023-11-21-Huatai-Financial-Engineering-AI/image-20231126212803314.png)
