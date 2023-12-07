@@ -35,7 +35,7 @@ bellman optimal equation 给出了最佳state value的存在性。解贝尔曼�
 ### Value Iteration
 核心理解：
 - 本质上就是用贝尔曼公式，求解整个系统的State Value然后根据state value去进行最后的策略选择，整个计算过程中就算把pi的更新给拿掉，只在收敛后再取，也没有任何问题！
-![](assets/images/blog-img/2023-11-26-Reinforcement-Learning-Notes/image-20231126223454823.png)
+![](/assets/images/blog-img/2023-11-26-Reinforcement-Learning-Notes/image-20231126223454823.png)
 
 ### Policy Iteration
 初始化Pi0，同样先做policy evaluation(这一步先迭代到最优的state value)，然后更新最优策略pi，然后再做policy evaluation 做iteration
